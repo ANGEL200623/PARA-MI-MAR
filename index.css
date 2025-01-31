@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(41, 42, 44);
+}
+#cont1{
+    background-color: rgb(41, 42, 44);
+    height: 270px;
+    
+}
+#cont2{
+    
+    height: 370px;
+    
+}
+#con2{
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    margin-left: 25%;
+    height: 350px;
+}
+#cont3{
+    background-color: rgb(41, 42, 44);
+    height: 230px;
+   
+}
+#c2{
+    width: 15%;
+    height: 40px;
+    font-size: 30px;
+    margin-left: 40%;
+    
+}
+#c3{
+    
+    width: 90%;
+    margin-left: 5%;
+    font-size: 17px;
+    height: 210px;
+    
+}
+#c4{
+   
+    width: 90%;
+    margin-left: 5%;
+    font-size: 20px;
+    height: 75px;
+    
+}
+#c5{
+    
+    width: 35%;
+    margin-left: 67%;
+    font-size: 17px;
+
+}
+#foto1{
+    width: 20%;
+    height: 230px;
+    margin-left: 10%;
+    border: solid rgb(255, 255, 255) 5px;
+    border-radius: 50px;
+    opacity: 0.5;
+    transition: transform 1s ease, opacity 1s ease;
+}
+
+  #foto1:hover {
+    opacity: 1;
+    transform: scale(1.05);
+    rotate: 10grad;
+  }
+
+#f2{
+    width: 40PX;
+    height: 100%;
+}
+marquee{
+    height: 70px;
+    width: 50%;
+    margin-left: 25%;
+    color: aliceblue;
+}
