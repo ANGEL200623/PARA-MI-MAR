@@ -18,6 +18,7 @@ body{
     height: 350px;
 }
 #cont3{
+    
     background-color: rgb(41, 42, 44);
     height: 230px;
    
@@ -27,15 +28,25 @@ body{
     height: 40px;
     font-size: 30px;
     margin-left: 40%;
-    
+    transition: all 1.5s;
+}
+#c2:hover{
+    color: rgb(0, 47, 255);
+    height: 400px;
+    margin-left: 5%;
+    font-size: 200px;
+    width: 100%;
 }
 #c3{
-    
     width: 90%;
     margin-left: 5%;
     font-size: 17px;
     height: 210px;
-    
+    transition: all 1.5s;
+}
+#c3:hover{
+    color: palevioletred;
+    font-size: 18px;
 }
 #c4{
    
@@ -43,6 +54,12 @@ body{
     margin-left: 5%;
     font-size: 20px;
     height: 75px;
+    transition: all 1.5s;
+}
+#c4:hover{
+    color: palevioletred;
+    font-size: 30px;
+    box-shadow: opacy 1;
     
 }
 #c5{
@@ -50,24 +67,26 @@ body{
     width: 35%;
     margin-left: 67%;
     font-size: 17px;
-
+    transition: all 1.5s;
+}
+#c5:hover{
+    color: palevioletred;
 }
 #foto1{
     width: 20%;
     height: 230px;
     margin-left: 10%;
-    border: solid rgb(255, 255, 255) 5px;
+    border: solid 7px rgb(255, 255, 255);
     border-radius: 50px;
     opacity: 0.5;
-    transition: transform 1s ease, opacity 1s ease;
+    transition: transform 2s ease, opacity 3s ease;
 }
-
   #foto1:hover {
     opacity: 1;
-    transform: scale(1.05);
-    rotate: 10grad;
-  }
-
+    transform: scale(1.20);
+    border: solid 7px palevioletred;
+    
+}
 #f2{
     width: 40PX;
     height: 100%;
@@ -77,4 +96,10 @@ marquee{
     width: 50%;
     margin-left: 25%;
     color: aliceblue;
+    transition: all 1.5s;
+}
+marquee:hover{
+    font-size: 40px;
+    color: palevioletred ;
+
 }
