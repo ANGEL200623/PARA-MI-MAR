@@ -3,7 +3,7 @@ body{
 }
 #cont1{
     background-color: rgb(41, 42, 44);
-    height: 270px;
+    height: 300px;
     
 }
 #cont2{
@@ -18,13 +18,12 @@ body{
     height: 350px;
 }
 #cont3{
-    
     background-color: rgb(41, 42, 44);
-    height: 230px;
+    height: 270px;
    
 }
 #c2{
-    width: 15%;
+    width: 20%;
     height: 40px;
     font-size: 30px;
     margin-left: 40%;
@@ -35,7 +34,7 @@ body{
     margin-left: 5%;
     font-size: 17px;
     height: 210px;
-    transition: all 1.5s;
+    transition: all 1s;
 }
 #c3:hover{
     color: palevioletred;
@@ -52,15 +51,12 @@ body{
 #c4:hover{
     color: palevioletred;
     font-size: 30px;
-    box-shadow: opacy 1;
-    
 }
 #c5{
-    
     width: 35%;
-    margin-left: 67%;
+    margin-left: 85%;
     font-size: 17px;
-    transition: all 1.5s;
+    transition: all 1s;
 }
 #c5:hover{
     color: palevioletred;
@@ -86,8 +82,7 @@ body{
 }
 marquee{
     height: 70px;
-    width: 50%;
-    margin-left: 25%;
+    width: 100%;
     color: aliceblue;
     transition: all 1.5s;
 }
